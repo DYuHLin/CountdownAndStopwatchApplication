@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    background-color: darkslateblue;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;  
+    color: white;
+}
+
+.timer__section{
+    display: flex;
+    flex-direction: column;
+    margin: 0
+}
+
+.tc__title{
+    text-align: center;
+    color: #EDEDED;
+    font-size: 4rem;
+    opacity: 0.4;
+}
+
+.timer{
+    font-family: sans-serif;
+    display: inline-block;
+    border-radius: 1rem;
+    background-color: #111827;
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+
+}
+
+.timer__part{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.timer__btn{
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    float: right;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: purple;
+}
+
+.timer__btn--start{
+    background-color: gray;
+}
+
+.timer__btn--reset{
+    background-color: #56465a;
+}
+
+.nav__icon-c{
+    font-size: 1.5rem;
+}

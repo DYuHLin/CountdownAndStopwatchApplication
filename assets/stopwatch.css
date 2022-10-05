@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+    --primary: purple;
+    --dark: rgba(43, 43, 182, 0.623);
+    --darkdark: #111827;
+    --light: #f3f4f6;
+}
+
+.stopwatch__section{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    background-color: hsl(var(--hue-color), 10%, 16%);
+    color: var(--light);
+}
+
+.watch{
+    text-align: center;
+    background-color: var(--darkdark);
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.time {
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+
+    color: var(--light);
+    font-size: 1.25rem;
+    background-color: var(--primary);
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+}
+
+.controls button:hover{
+    opacity: 0.7;
+}
+
+.controls button:active{
+    background-color: var(--dark);
+}
